@@ -2,7 +2,7 @@ const names = document.querySelector('.names');
 const ages = document.querySelector('.ages');
 const btn = document.querySelector('.btn');
 const namee = document.querySelector('.name')
-const age = document.querySelector('.ages');
+const age = document.querySelector('.age');
 btn.addEventListener('click' , function(){
     function Calculater(name, dob){
         this.name = name;
